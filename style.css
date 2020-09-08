@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+}
+/* TABLERO  */
+p{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem; 
+    margin-left: 45px;
+
+}
+.tablero {
+    margin: 10px;
+    border: 2px solid aquamarine;
+    color: white; 
+    width: 150px;   
+    height: 50px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem; 
+}
+.tablero:hover{
+    background-color: aquamarine;
+    color: black;
+    cursor: pointer;
+}
+
+/* TATETI */
+.container .box {
+    border: 2px solid aquamarine;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem; 
+    margin-top: -100px;
+}
+
+.container .box:hover {
+    background-color: aquamarine;
+    color: black;
+    cursor: pointer;
+}
+
+.container{
+    width: 50vw;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 10% auto;
+
+}
+
+
+
+.row{
+    display: flex;
+    flex-direction: column;
+
+}
